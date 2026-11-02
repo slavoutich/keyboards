@@ -41,3 +41,9 @@ needed.
 
 Flash a `.uf2` by putting the keyboard into its bootloader and copying the
 file onto the USB drive that appears.
+
+## License
+
+The files in this repository are licensed under [0BSD](LICENSE). The
+submodules keep their own licenses: `bastardkb-qmk` and `qmk_userspace` are
+GPL-2.0, `zmk-keyboard-toucan2` is MIT.
