@@ -1,0 +1,9 @@
+[submodule "bastardkb-qmk"]
+	path = bastardkb-qmk
+	url = https://github.com/bastardkb/bastardkb-qmk
+[submodule "qmk_userspace"]
+	path = qmk_userspace
+	url = git@github.com:slavoutich/qmk_userspace.git
+[submodule "zmk-keyboard-toucan2"]
+	path = zmk-keyboard-toucan2
+	url = https://github.com/beekeeb/zmk-keyboard-toucan2.git
