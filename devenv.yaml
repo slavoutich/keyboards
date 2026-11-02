@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://devenv.sh/devenv.schema.json
+inputs:
+  nixpkgs:
+    # Plain nixos-unstable rather than devenv's default devenv-nixpkgs/rolling,
+    # which had no cached build of grpcio (a ~30-minute source build).
+    url: github:NixOS/nixpkgs/nixos-unstable
